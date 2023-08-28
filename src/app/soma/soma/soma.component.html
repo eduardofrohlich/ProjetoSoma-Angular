@@ -1,6 +1,6 @@
 <form action="">
-  Número 1: <input type="text"> <br>
-  Número 2: <input type="text"> <br>
-  <input type="button" value="Somar"> <br>
-  Resultado: <input type="text"> <br>
+  Número 1: <input #num1 type="text"> <br>
+  Número 2: <input #num2 type="text"> <br>
+  <input type="button" value="Somar" (click)="somar(num1.value, num2.value)"> <br>
+  Resultado: <input type="text" [value]="resultado"> <br>
 </form>
