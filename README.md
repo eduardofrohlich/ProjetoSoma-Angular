@@ -1,4 +1,16 @@
 # ProjetoSoma
+### Esse projeto é composto por:
+- Módulo **SomaModule**
+- Componente **SomaComponent**
+- Service **SomaService**
+
+### Criação do módulo SomaModule:
+`` ng g module soma ``
+### Criação do componente SomaModule:
+`` ng g component soma/soma ``
+### Criação do service SomaService:
+`` ng g service soma/services/soma ``
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
 
